@@ -1,16 +1,22 @@
-public class AreaCalculator {
+import java.util.Scanner;
 
-    public double area(double length, double breadth) {
-        return length * breadth;
-    }
-  
-    public double area(double base, double height, int flag) {
-        return 0.5 * base * height;
+public class ex1b {
+
+    static class AreaCalculator {
+
+        public double area(double length, double breadth) {
+            return length * breadth;
+        }
+
+        public double area(double base, double height, int flag) {
+            return 0.5 * base * height;
+        }
+
+        public int area(int side) {
+            return side * side;
+        }
     }
 
-    public int area(int side) {
-        return side * side;
-    }
     public static void main(String[] args) {
         AreaCalculator calc = new AreaCalculator();
 

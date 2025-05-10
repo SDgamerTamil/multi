@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LargestNumber {
+public class ex1a {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
